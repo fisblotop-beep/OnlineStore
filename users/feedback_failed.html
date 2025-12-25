@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="text-align:center; margin:60px;">
+    <h2>Ошибка</h2>
+    <p>Не удалось отправить сообщение. Проверьте данные.</p>
+    <a href="{% url 'store:home' %}">Вернуться на главную</a>
+</div>
+{% endblock %}
