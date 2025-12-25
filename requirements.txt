@@ -9,7 +9,7 @@ Pillow==10.3.0
 
 # Forms / UI
 django-bootstrap4==25.3
-django-filter==25.2
+django-filter==23.5
 django-taggit==6.1.0
 
 # Env
